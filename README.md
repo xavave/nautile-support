@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.png" width="128" alt="Nautile"></p>
+
 # Nautile — support
 
 **Nautile** est un client pour [Jellyfin](https://jellyfin.org) sur Freebox Player, disponible sur le FreeStore.
