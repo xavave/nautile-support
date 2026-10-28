@@ -1,0 +1,16 @@
+name: 💡 Suggestion
+description: Proposer une amélioration ou une nouvelle fonction.
+labels: [suggestion]
+body:
+  - type: textarea
+    id: idee
+    attributes:
+      label: Votre idée
+      description: Que voudriez-vous pouvoir faire dans Nautile ?
+    validations:
+      required: true
+  - type: textarea
+    id: pourquoi
+    attributes:
+      label: Pourquoi ?
+      description: Dans quelle situation cela vous serait utile.

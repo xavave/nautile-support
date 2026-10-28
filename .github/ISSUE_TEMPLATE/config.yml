@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Question / aide
+    url: https://github.com/xavave/nautile-support/discussions
+    about: Pour une question d'utilisation, passez plutôt par les Discussions.
+  - name: ✉️ Contact par e-mail
+    url: mailto:nautile.support@gmail.com
+    about: Pour un sujet privé (achat, compte…).

@@ -1,0 +1,43 @@
+name: 🐞 Signaler un bug
+description: Quelque chose ne fonctionne pas comme prévu.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "⚠️ N'indiquez jamais l'adresse de votre serveur, votre identifiant ni votre mot de passe."
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Que se passe-t-il ?
+      description: Décrivez le problème et ce que vous attendiez.
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Comment le reproduire ?
+      placeholder: "1. Ouvrir…\n2. Sélectionner…\n3. …"
+  - type: input
+    id: version-app
+    attributes:
+      label: Version de Nautile
+      description: Visible dans le menu À propos.
+    validations:
+      required: true
+  - type: dropdown
+    id: player
+    attributes:
+      label: Freebox Player
+      options: [Révolution, Delta, Pop, Ultra, Autre / je ne sais pas]
+    validations:
+      required: true
+  - type: input
+    id: version-jellyfin
+    attributes:
+      label: Version du serveur Jellyfin
+      description: Visible dans le menu À propos de Nautile.
+  - type: textarea
+    id: media
+    attributes:
+      label: Vidéo concernée (si problème de lecture)
+      description: Format du fichier, résolution, sous-titres… (sans le titre si vous préférez).
