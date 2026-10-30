@@ -24,7 +24,10 @@ Avant d'ouvrir un signalement, merci d'indiquer si possible : le modèle de Free
 Non. Nautile lit uniquement les médias présents sur votre propre serveur Jellyfin.
 
 **Comment fonctionne l'essai gratuit ?**
-Chaque vidéo est lisible pendant 15 minutes. Un achat unique de 1,49 € dans l'application débloque la lecture complète, sans abonnement.
+Vous disposez de 15 minutes de lecture gratuite par jour, toutes vidéos confondues ; le compteur repart à zéro chaque jour à minuit. Le temps restant est indiqué dans le menu « À propos ». Un achat unique de 1,49 € dans l'application débloque la lecture illimitée sur votre Freebox Player, sans abonnement.
+
+**J'ai déjà payé mais l'application me propose encore de débloquer.**
+L'achat est lié à votre compte Freebox : il est retrouvé automatiquement, même après une réinstallation. Si ce n'est pas le cas, relancez l'application ; si le problème persiste, écrivez-nous en joignant le journal de l'application (menu utilisateur > Journal).
 
 **Mon serveur n'est pas trouvé.**
 Vérifiez que l'adresse saisie est bien joignable depuis la Freebox (réseau local ou Internet), avec le bon port, et que le serveur Jellyfin est démarré.
